@@ -1,0 +1,26 @@
+.pagination {
+    -fx-arrows-visible: false;
+    -fx-background-color: transparent;
+}
+
+.pagination .page {
+    -fx-background-color: transparent;
+}
+
+.pagination .pagination-control .bullet-button {
+    -fx-background-color: transparent, darkgray, darkgray, darkgray, darkgray;
+}
+
+.pagination .pagination-control .bullet-button:selected {
+    -fx-background-color: transparent, white, white, white, white;
+}
+
+#check .box{
+    -fx-background-color: transparent;
+}
+#check:selected .box{
+    -fx-background-color: transparent;
+}
+#check:selected .mark{
+    -fx-background-color: white;
+}
